@@ -7,5 +7,9 @@ public class Sku{
 	pubic Long getTitle(){
 	  return this.title;
 	}
+	
+	pubic Long getImages(){
+	  return this.images;
+	}
 }
 
