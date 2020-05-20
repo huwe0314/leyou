@@ -3,6 +3,11 @@ public class Sku{
 	private String title;
 	private Long price;
 	private String images;
+
+	public void bugMsg(){
+		system.out.println("this is bug!")
+	}
+	
 	
 	pubic Long getTitle(){
 	  return this.title;
