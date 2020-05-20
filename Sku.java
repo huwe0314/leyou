@@ -11,5 +11,8 @@ public class Sku{
 	pubic Long getImages(){
 	  return this.images;
 	}
+	public void msg(){
+		system.out.println("this is master!");
+	}
 }
 
